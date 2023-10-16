@@ -1,5 +1,5 @@
 (function(){
-    var serverUri = ""
+    var serverUri = "https://developerflow.github.io/upwork-mod"
     var modMenuEl
 
     //load the styles
@@ -9,7 +9,7 @@
     function loadStyle(){
         var style = document.createElement("style");
         style.innerHTML = "\
-        @font-face{font-family:mauline; src:url(mauline.otf)}\
+        @font-face{font-family:mauline; src:url(" + serverUri + "mauline.otf)}\
         .yotta-icon{width:20vw; height:auto; max-width:50px;}\
         .yotta-pointer{cursor:pointer}\
         .yotta-round-btn{width:30px; height:30px; border-radius:50%}\
