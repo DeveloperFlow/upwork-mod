@@ -1,5 +1,5 @@
 (function(){
-    var serverUri = "https://developerflow.github.io/upwork-mod"
+    var serverUri = "https://developerflow.github.io/upwork-mod/"
     var modMenuEl
 
     //load the styles
