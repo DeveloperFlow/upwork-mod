@@ -16,7 +16,7 @@
         .minor-pad{padding:2%}\
         body.yotta-darkmode *{background-color:#000 !important; color:#fff !important;}\
         #yotta-mod-bar{position:fixed; left:0; height:100%; top:0; display:flex; flex-direction:column;\
-        justify-content:flex-end; box-sizing:border-box}\
+        justify-content:flex-end; box-sizing:border-box; background-color:transparent !important}\
         #yotta-mod-bar *{box-sizing:border-box;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}\
         #yotta-mod-menu{box-sizing:border-box}\
         #yotta-mod-menu *{box-sizing:border-box;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}\
