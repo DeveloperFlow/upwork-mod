@@ -22,7 +22,7 @@
         #yotta-mod-menu *{box-sizing:border-box;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}\
         #yotta-mod-menu{height:100%; position:fixed; top:0; left:0; overflow:auto; position:flex;\
         flex-direction:column; justify-content:center; padding:2%; border:1px solid #75c2af; background:#fff;\
-        max-width:300px}\
+        max-width:300px; z-index:10000}\
         #yotta-mod-menu h2{font-family:mauline}\
         "
         document.head.appendChild(style)
@@ -30,7 +30,7 @@
     // load the mod menu
     function modMenu(){
       var modBar = document.createElement("div"); modBar.id = "yotta-mod-bar"; modBar.className = "minor-pad"
-      var modIniBtn = document.createElement("img"); modIniBtn.src = serverUri + "img/logo.png"
+      var modIniBtn = document.createElement("img"); modIniBtn.src = serverUri + "img/logo.png"; console.log(serverUri,modIniBtn.src)
       modIniBtn.className = "yotta-icon yotta-pointer"; modIniBtn.style.border = "1px solid #75c2af";
       modIniBtn.style.borderRadius = "50%"
       modBar.appendChild(modIniBtn)
